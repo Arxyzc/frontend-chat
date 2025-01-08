@@ -157,8 +157,9 @@ const Profile = () => {
                             <Input 
                                 placeholder="Email" 
                                 type="email" 
-                                disbaled
-                                value={userInfo.email} 
+                                disabled
+                                defaultValue={userInfo.email} 
+                                //value={userInfo.email} 
                                 className="rounded-lg p-6 bg-[#2c2e3b] border-none"
                             />
                         </div>
